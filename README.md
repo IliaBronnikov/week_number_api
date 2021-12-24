@@ -1,6 +1,10 @@
 # Week number API
 ## Web-приложение для получения номера недели по дате (отсчет начинается с воскресенья)
 
+### Demo app
+
+https://secret-ridge-78659.herokuapp.com/?date=2021-2-1
+
 ### API
 - Запрос
 ```
@@ -30,6 +34,7 @@ pip install -r requirements.txt
 ```shell script
 ./uvicorn main:app --reload
 ```
+
  
 
 
